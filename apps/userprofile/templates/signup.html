@@ -1,0 +1,29 @@
+{% extends 'base2.html' %}
+
+{% load static %}
+
+{% block content %}
+<div  style="background-color: #e1992d;">
+    <div class=" container column is-6 is-offset-3">
+        <h1 class="title">Sign up</h1>
+        <div class="d-flex justify-content-center" style="margin-top: 10rem;">
+            <div class="brand_logo_container" style="margin-top: 264px;">
+                <img src="{% static 'assets/img/logo.jpeg' %}" class="brand_logo" alt="Logo">
+            </div>
+        </div>
+        <form method="post" action="." style="margin-top: 10rem;">
+            {% csrf_token %}
+
+            {{ form.as_p }}
+
+            {{ userprofileform.as_p }}
+
+            <div class="field">
+                <div class="control">
+                    <button class="button is-success">Sign up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
