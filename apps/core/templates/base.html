@@ -71,10 +71,12 @@
                 <li class="nav-item">
                   <a class="nav-link" href="{% url 'blog' %}">Blog</a>
                 </li>
-                <div class="form-group relative" >
-                    <input type="text" class="form-control" placeholder="Search all your want">
-                    <button class="button-reset color-inherit db o-60 absolute center-v right-1 hover-primary6"><i class="fas fa-search"></i></button>
-                </div>
+                <form class="" action="{% url 'search' %}" method="GET">
+                  <div class="form-group relative" >
+                      <input type="text" class="form-control" name="query" placeholder="Search all your want">
+                      <button class="button-reset color-inherit db o-60 absolute center-v right-1 hover-primary6"><i class="fas fa-search"></i></button>
+                  </div>
+                </form>
                   <div class="cart-circle"></div>
                   <a href="{% url 'cart' %}"><i class="fas fa-cart-arrow-down right"></i></a>
                   <div class="cart-count text-center " id="navbarapp">
