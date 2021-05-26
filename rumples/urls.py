@@ -13,6 +13,7 @@ from apps.store.views import product_detail, category_detail, search
 from apps.userprofile.views import signup, myaccount, myspec, myorder
 
 from apps.newsletter.api import api_add_subscriber
+from apps.whatsapp.api import api_add_whatsapp
 from apps.coupon.api import api_can_use
 from apps.store.api import api_add_to_cart, api_remove_from_cart, create_checkout_session, validate_payment
 
@@ -56,6 +57,7 @@ urlpatterns = [
     path('api/add_to_cart/', api_add_to_cart, name='api_add_to_cart'),
     path('api/remove_from_cart/', api_remove_from_cart, name='api_remove_from_cart'),
     path('api/add_subscriber/', api_add_subscriber, name='api_add_subscriber'),
+    path('api/add_whatsapp/', api_add_whatsapp, name='api_add_whatsapp'),
 
     # Store
 

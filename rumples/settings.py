@@ -67,7 +67,8 @@ INSTALLED_APPS = [
     'apps.newsletter',
     'apps.order',
     'apps.store',
-    'apps.userprofile'
+    'apps.userprofile',
+    'apps.whatsapp'
 ]
 
 MIDDLEWARE = [

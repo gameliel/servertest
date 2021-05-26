@@ -1,5 +1,6 @@
-from apps.whatsapp.models import Whatsap
+from apps.whatsapp.models import Whatsapp
 from django.contrib import admin
 
 # Register your models here.
-admin.site.register(Whatsap)
+admin.site.register(Whatsapp)
+
