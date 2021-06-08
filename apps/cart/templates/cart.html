@@ -15,7 +15,7 @@
                                 <div class="row" v-for="product in products">
                                     <div class="col-md-4 col-sm-12 prodimagegrid">
                                         <div class="prodimgcard card1">
-                                            <img src="product.thumbnail" class="prodimage" alt="">
+                                                <img src="{{ product.thumbnail }}" class="prodimage" alt="missing">
                                         </div>
                                     </div>
                                     <div class="col-md-8 col-sm-12" style="margin-bottom:1em;">
@@ -30,7 +30,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-md-7 details">
-                                                        <p class="cart-prod-title cart-display"> test 1</p>
+                                                        <p class="cart-prod-title cart-display"> [[ product.title ]]</p>
                                                         <p class="cart-prod-price cart-display">N[[ product.total_price ]]</p>
                                                         <hr class="cart-hr">
                                                         <div class="alt-prod">

@@ -129,7 +129,7 @@ element.style {
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
     z-index: 1;
     margin-top: -57px;
-    margin-left: -465px;
+    margin-left: -446px;
   }
   /* Links inside the dropdown */
 .dropdown-content a {
@@ -1500,13 +1500,7 @@ footer form input{
 .cart-detail .cart-row{
     margin-bottom: 2rem;
 }
-.prodimgcard{
-width: 100%;
-height: 179px;
-border-width: 1px;
-border-style: hidden;
-border-radius:14px;
-}
+.prodimgcard{width: 100%;height: 151px;border-width: 1px;border-style: hidden;border-radius:14px;}
 /* .prodimgcard:hover{
 width: 100%;
 height: 179px;
@@ -1521,13 +1515,7 @@ border-radius: 10px;
 margin-left: 50.6px;
 margin-top: 11px;
 }
-.prod-detail-card{
-width: 100%;
-height: 179px;
-border-width: 1px;
-border-style: hidden;
-border-radius:14px;
-}
+.prod-detail-card{width: 100%;height: 151px;border-width: 1px;border-style: hidden;border-radius:14px;}
 /* .prod-detail-card:hover{
 width: 100%;
 height: 179px;
@@ -1556,14 +1544,8 @@ color: red;
 .cart-display{
 display:inline-block;
 }
-.cart-prod-title{
-font-weight:500;
-}
-.cart-prod-price{
-margin-left: 2.5rem;
-color:hsl(32deg 47% 71%);
-font-weight: 600;
-}
+.cart-prod-title{font-size: 13px;font-weight:500;text-transform: uppercase;}
+.cart-prod-price{margin-left: 21px;color:hsl(32deg 47% 71%);font-weight: 500;font-size: 13px;}
 .additional-prod{
 display: inline-block
 }
@@ -1581,12 +1563,8 @@ margin-top: -5.1rem;
 background-color: hsl(36deg 75% 53%);
 border-color: hsl(32deg 47% 71%);
 }
-.prod-detail-card .alt-prod{
-margin-top: -2rem;
-}
-.prod-detail-card .alt-prod2{
-margin-top: -1.2rem;
-}
+.prod-detail-card .alt-prod{margin-top: -40px;}
+.prod-detail-card .alt-prod2{margin-top: -29px;}
 .prod-detail-card .alt-prod2 .btn-outline-danger{
 font-size:small;
 margin-left: 18rem;
@@ -1689,9 +1667,9 @@ margin-top:8px;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-/*    border: 1px solid rgba(0, 0, 0, 0.125);*/
-    border-radius: 0.25rem; 
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%) !important;
+    /*    border: 1px solid rgba(0, 0, 0, 0.125);*/
+    border-radius: 0.25rem;
+    box-shadow: 0 0 30px rgb(34 34 34 / 7%);
 }
 .summary-display-card .title{
     margin-top: 24px;
@@ -1828,15 +1806,15 @@ margin-top:8px;
   }
   /***-------view profile wrapper css --------***/
 .view_profile_wrapper_top {
-    padding: 50px 30px 140px 35px;
+    padding: 0px;
 }
 .view_profile_wrapper{
 	padding:30px;
 	padding-left:35px;
 	background:#fff;
-	-webkit-border-radius: 10px; 
-	-moz-border-radius: 10px; 
-	border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 0px;
 	margin-bottom:150px;
 }
 .profile_list li {
@@ -2023,4 +2001,62 @@ margin-top:8px;
 }
 .is-primary{
   background-color: #e1992d !important;
+}
+.navbar-nav .nav-item .dropdown_spec{
+  visibility: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 60px rgb(34 34 34 / 25%);
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 12px;
+  display: none;
+  z-index: 1;
+  width:320px;
+  margin-left: -260px;
+  padding-bottom: 27px;
+}
+.navbar-nav .nav-item:hover > .dropdown_spec,
+.navbar-nav .nav-item .dropdown_spec:hover{
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+.dropdown_spec .container .row .personal_details{
+  margin-top: 19px;
+}
+.dropdown_spec .personal_details .p_details{
+    margin-left: 100px;
+    margin-top: -65px;
+    padding: 0px;
+}
+.dropdown_spec .personal_details .p_details .mail{
+    margin-top: -12px;
+    color: #b9bccd;
+}
+.p_details .btn-primary{
+    margin-top:0px !important;
+}
+.p_details .btn{
+    border-radius: 0rem !important;
+}
+.dropdown_spec hr{
+    margin-bottom: 12px;
+    margin-left: -23px;
+    width: 278px;
+}
+.dropdown_spec li{
+    display:block;
+    padding: 6px;
+    text-transform: uppercase;
+}
+.dropdown_spec li a{
+  text-decoration: none;
+  color: gray;
+}
+.dropdown_spec li a:hover{
+  color: #e1992d;
+}
+table thead tr .title-img{
+  width: 40%;
 }

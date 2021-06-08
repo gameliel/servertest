@@ -298,7 +298,7 @@ td,
 th {
   border-color: inherit;
   border-style: solid;
-  border-width: 0;
+  border-width: 0px;
 }
 
 label {
@@ -1923,7 +1923,7 @@ progress {
 }
 .table {
   --bs-table-bg: transparent;
-  --bs-table-striped-color: #212529;
+  --bs-table-striped-color: #052342;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
   --bs-table-active-color: #212529;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
@@ -1948,7 +1948,7 @@ progress {
   vertical-align: bottom;
 }
 .table > :not(:last-child) > :last-child > * {
-  border-bottom-color: currentColor;
+  border-bottom-color: #ffffff;
 }
 
 .caption-top {

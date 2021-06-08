@@ -159,7 +159,7 @@ li,ul{
 }
 
 .form-btn::before {
-    content: "";
+    content: "ï„…";
     font-family: FontAwesome;
     position: absolute;
     right: 17px;
@@ -181,7 +181,7 @@ li,ul{
 /*Home Page*/
 
 .home {
-    background: #f6f7fa;
+    background: #ffffff;
 }
 
 #navigation {
@@ -412,7 +412,7 @@ header {
 }
 
 .user-dashboard {
-    padding: 0 20px;
+    padding: 0px;
 }
 
 .user-dashboard h1 {
@@ -440,7 +440,7 @@ header {
 }
 
 .sales button::before {
-    content: "";
+    content: "ï„‡";
     font-family: FontAwesome;
     position: absolute;
     right: 12px;

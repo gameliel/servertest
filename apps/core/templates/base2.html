@@ -86,6 +86,27 @@
                   {% if request.user.is_authenticated %}
 				  <li class="nav-item active">
 					<a class="nav-link" href="{% url 'myspec' %}">My Spec</a>
+					<ul class="dropdown_spec">
+						<div class="container">
+							<div class="row">
+								<div class="personal_details">
+									<div class=" col-md-4">
+										<img class="userpic" src="{% static 'assets/img/user.svg' %}" alt="uer">
+									</div>
+									<div class="col-md-8 p_details">
+										<p>{{ request.user.get_username}}</p>
+										<p class="mail">{{ request.user.email }}</p>
+										<input type="submit" class="btn btn-primary" value="Edith Profile">
+									</div>
+								</div>
+							</div>
+							<hr>
+							<li><a href="#">My account</a></li>
+							<li><a href="#">My Order</a></li>
+							<li><a href="{% url 'cart' %}">Cart</a></li>
+							<li><a href="{% url 'logout' %}">Logout</a></li>
+						</div>
+					</ul>
 				  </li>
 					{% else %}
 						<div class="nav-item">

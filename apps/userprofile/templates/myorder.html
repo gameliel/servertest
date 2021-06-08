@@ -8,40 +8,14 @@
     <link rel="stylesheet" href="{% static 'assets/css/dashboard.css' %}">
 
 <body class="home">
-  <div class="container-fluid display-table">
+  <div class=" display-table">
     <div class="row display-table-row">
-      <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
-        <!-- <div class="logo">
-          <a hef="home.html"><img src="{% static 'assets/img/logo.jpeg' %}" alt="merkery_logo" class="hidden-xs hidden-sm">
-            <img src="{% static 'assets/img/logo.jpeg' %}" alt="merkery_logo" class="visible-xs visible-sm circle-logo">
-          </a>
-        </div> -->
-        <div class="navi">
-          <ul>
-            <li><a href="{% url 'myspec' %}"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">My Profile</span></a></li>
-            <li class="active"><a href="{% url 'myorder' %}"><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">My order</span></a></li>
-            <!-- <li><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Statistics</span></a></li>
-            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Calender</span></a></li>
-            <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Users</span></a></li> -->
-            <li><a href="{% url 'logout' %}"><i class="fas fa-lock-open" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Logout</span></a></li>
-          </ul>
-        </div>
-      </div>
       <div class="col-md-10 col-sm-11 display-table-cell v-align">
         <div class="user-dashboard">
-          <div class="container">
+          <div class="">
             <div class="view_profile_wrapper_top float_left">
 
               <div class="row">
-
-                  <div class="col-md-12 col-lg-12 col-sm-12 col-12">
-                      <div class="sv_heading_wraper">
-
-                          <h3>My Orders</h3>
-
-                      </div>
-
-                  </div>
                   <div class="col-md-12 col-lg-12 col-sm-12 col-12">
                       <div class="view_profile_wrapper float_left">
                           <div class="row">
@@ -54,10 +28,12 @@
                                     </div>
                         
                                     <div class="message-body">
-                                        <table class="table is-striped is-fullwidth">
+                                        <table class="table table-striped">
                                             <thead>
                                                 <tr>
+                                                    <th class="title-img">Image</th>
                                                     <th>Title</th>
+                                                    <th>Alteration to spec</th>
                                                     <th>Quantity</th>
                                                     <th>Price</th>
                                                 </tr>
@@ -66,7 +42,9 @@
                                             <tbody>
                                                 {% for item in order.items.all %}
                                                     <tr>
+                                                        <td><img src="{{ item.product.get_thumbnail }}" style="width:10%;" alt="test"></td>
                                                         <td>{{ item.product.title }}</td>
+                                                        <td>-</td>
                                                         <td>{{ item.quantity }}</td>
                                                         <td>{{ item.price }}</td>
                                                     </tr>
@@ -76,6 +54,8 @@
                                             <tfoot>
                                                 <tr>
                                                     <td>Total</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
                                                     <td>{{ order.get_total_quantity }}</td>
                                                     <td>{{ order.paid_amount }}</td>
                                                 </tr>
