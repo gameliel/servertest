@@ -1,0 +1,764 @@
+Starting rumplesandco as simvic
+[2021-06-14 09:38:22 +0000] [77177] [DEBUG] Current configuration:
+  config: ./gunicorn.conf.py
+  wsgi_app: None
+  bind: ['unix:/home/simvic/rumples/run/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  print_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/simvic/rumplesandco
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: rumplesandco
+  default_proc_name: rumples.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f3987b88820>
+  on_reload: <function OnReload.on_reload at 0x7f3987b88940>
+  when_ready: <function WhenReady.when_ready at 0x7f3987b88a60>
+  pre_fork: <function Prefork.pre_fork at 0x7f3987b88b80>
+  post_fork: <function Postfork.post_fork at 0x7f3987b88ca0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f3987b88dc0>
+  worker_int: <function WorkerInt.worker_int at 0x7f3987b88ee0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f3987ba0040>
+  pre_exec: <function PreExec.pre_exec at 0x7f3987ba0160>
+  pre_request: <function PreRequest.pre_request at 0x7f3987ba0280>
+  post_request: <function PostRequest.post_request at 0x7f3987ba0310>
+  child_exit: <function ChildExit.child_exit at 0x7f3987ba0430>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f3987ba0550>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f3987ba0670>
+  on_exit: <function OnExit.on_exit at 0x7f3987ba0790>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2021-06-14 09:38:22 +0000] [77177] [INFO] Starting gunicorn 20.1.0
+[2021-06-14 09:38:22 +0000] [77177] [DEBUG] Arbiter booted
+[2021-06-14 09:38:22 +0000] [77177] [INFO] Listening at: unix:/home/simvic/rumples/run/gunicorn.sock (77177)
+[2021-06-14 09:38:22 +0000] [77177] [INFO] Using worker: sync
+[2021-06-14 09:38:22 +0000] [77182] [INFO] Booting worker with pid: 77182
+[2021-06-14 09:38:22 +0000] [77183] [INFO] Booting worker with pid: 77183
+[2021-06-14 09:38:22 +0000] [77184] [INFO] Booting worker with pid: 77184
+[2021-06-14 09:38:22 +0000] [77177] [DEBUG] 3 workers
+[2021-06-14 10:53:44 +0000] [77177] [INFO] Handling signal: term
+[2021-06-14 10:53:44 +0000] [77184] [INFO] Worker exiting (pid: 77184)
+[2021-06-14 10:53:44 +0000] [77182] [INFO] Worker exiting (pid: 77182)
+[2021-06-14 10:53:44 +0000] [77183] [INFO] Worker exiting (pid: 77183)
+[2021-06-14 10:53:45 +0000] [77177] [INFO] Shutting down: Master
+Starting rumplesandco as simvic
+[2021-06-14 10:53:46 +0000] [78331] [DEBUG] Current configuration:
+  config: ./gunicorn.conf.py
+  wsgi_app: None
+  bind: ['unix:/home/simvic/rumples/run/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  print_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/simvic/rumplesandco
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: rumplesandco
+  default_proc_name: rumples.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fe07dedb820>
+  on_reload: <function OnReload.on_reload at 0x7fe07dedb940>
+  when_ready: <function WhenReady.when_ready at 0x7fe07dedba60>
+  pre_fork: <function Prefork.pre_fork at 0x7fe07dedbb80>
+  post_fork: <function Postfork.post_fork at 0x7fe07dedbca0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fe07dedbdc0>
+  worker_int: <function WorkerInt.worker_int at 0x7fe07dedbee0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fe07def3040>
+  pre_exec: <function PreExec.pre_exec at 0x7fe07def3160>
+  pre_request: <function PreRequest.pre_request at 0x7fe07def3280>
+  post_request: <function PostRequest.post_request at 0x7fe07def3310>
+  child_exit: <function ChildExit.child_exit at 0x7fe07def3430>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fe07def3550>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fe07def3670>
+  on_exit: <function OnExit.on_exit at 0x7fe07def3790>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2021-06-14 10:53:46 +0000] [78331] [INFO] Starting gunicorn 20.1.0
+[2021-06-14 10:53:46 +0000] [78331] [DEBUG] Arbiter booted
+[2021-06-14 10:53:46 +0000] [78331] [INFO] Listening at: unix:/home/simvic/rumples/run/gunicorn.sock (78331)
+[2021-06-14 10:53:46 +0000] [78331] [INFO] Using worker: sync
+[2021-06-14 10:53:46 +0000] [78336] [INFO] Booting worker with pid: 78336
+[2021-06-14 10:53:46 +0000] [78337] [INFO] Booting worker with pid: 78337
+[2021-06-14 10:53:46 +0000] [78338] [INFO] Booting worker with pid: 78338
+[2021-06-14 10:53:46 +0000] [78331] [DEBUG] 3 workers
+[2021-06-14 11:00:53 +0000] [78331] [INFO] Handling signal: term
+[2021-06-14 11:00:53 +0000] [78337] [INFO] Worker exiting (pid: 78337)
+[2021-06-14 11:00:53 +0000] [78336] [INFO] Worker exiting (pid: 78336)
+[2021-06-14 11:00:53 +0000] [78338] [INFO] Worker exiting (pid: 78338)
+[2021-06-14 11:00:53 +0000] [78331] [INFO] Shutting down: Master
+Starting rumplesandco as simvic
+[2021-06-14 11:00:55 +0000] [78571] [DEBUG] Current configuration:
+  config: ./gunicorn.conf.py
+  wsgi_app: None
+  bind: ['unix:/home/simvic/rumples/run/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  print_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/simvic/rumplesandco
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: rumplesandco
+  default_proc_name: rumples.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fa785887820>
+  on_reload: <function OnReload.on_reload at 0x7fa785887940>
+  when_ready: <function WhenReady.when_ready at 0x7fa785887a60>
+  pre_fork: <function Prefork.pre_fork at 0x7fa785887b80>
+  post_fork: <function Postfork.post_fork at 0x7fa785887ca0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fa785887dc0>
+  worker_int: <function WorkerInt.worker_int at 0x7fa785887ee0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fa78589f040>
+  pre_exec: <function PreExec.pre_exec at 0x7fa78589f160>
+  pre_request: <function PreRequest.pre_request at 0x7fa78589f280>
+  post_request: <function PostRequest.post_request at 0x7fa78589f310>
+  child_exit: <function ChildExit.child_exit at 0x7fa78589f430>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fa78589f550>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fa78589f670>
+  on_exit: <function OnExit.on_exit at 0x7fa78589f790>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2021-06-14 11:00:55 +0000] [78571] [INFO] Starting gunicorn 20.1.0
+[2021-06-14 11:00:55 +0000] [78571] [DEBUG] Arbiter booted
+[2021-06-14 11:00:55 +0000] [78571] [INFO] Listening at: unix:/home/simvic/rumples/run/gunicorn.sock (78571)
+[2021-06-14 11:00:55 +0000] [78571] [INFO] Using worker: sync
+[2021-06-14 11:00:55 +0000] [78576] [INFO] Booting worker with pid: 78576
+[2021-06-14 11:00:55 +0000] [78577] [INFO] Booting worker with pid: 78577
+[2021-06-14 11:00:55 +0000] [78578] [INFO] Booting worker with pid: 78578
+[2021-06-14 11:00:55 +0000] [78571] [DEBUG] 3 workers
+[2021-06-14 11:11:38 +0000] [78571] [INFO] Handling signal: term
+[2021-06-14 11:11:38 +0000] [78578] [INFO] Worker exiting (pid: 78578)
+[2021-06-14 11:11:38 +0000] [78576] [INFO] Worker exiting (pid: 78576)
+[2021-06-14 11:11:38 +0000] [78577] [INFO] Worker exiting (pid: 78577)
+[2021-06-14 11:11:38 +0000] [78571] [INFO] Shutting down: Master
+Starting rumplesandco as simvic
+[2021-06-14 11:11:40 +0000] [78812] [DEBUG] Current configuration:
+  config: ./gunicorn.conf.py
+  wsgi_app: None
+  bind: ['unix:/home/simvic/rumples/run/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  print_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/simvic/rumplesandco
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: rumplesandco
+  default_proc_name: rumples.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f7d28dc6820>
+  on_reload: <function OnReload.on_reload at 0x7f7d28dc6940>
+  when_ready: <function WhenReady.when_ready at 0x7f7d28dc6a60>
+  pre_fork: <function Prefork.pre_fork at 0x7f7d28dc6b80>
+  post_fork: <function Postfork.post_fork at 0x7f7d28dc6ca0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f7d28dc6dc0>
+  worker_int: <function WorkerInt.worker_int at 0x7f7d28dc6ee0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f7d28dde040>
+  pre_exec: <function PreExec.pre_exec at 0x7f7d28dde160>
+  pre_request: <function PreRequest.pre_request at 0x7f7d28dde280>
+  post_request: <function PostRequest.post_request at 0x7f7d28dde310>
+  child_exit: <function ChildExit.child_exit at 0x7f7d28dde430>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f7d28dde550>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f7d28dde670>
+  on_exit: <function OnExit.on_exit at 0x7f7d28dde790>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2021-06-14 11:11:40 +0000] [78812] [INFO] Starting gunicorn 20.1.0
+[2021-06-14 11:11:40 +0000] [78812] [DEBUG] Arbiter booted
+[2021-06-14 11:11:40 +0000] [78812] [INFO] Listening at: unix:/home/simvic/rumples/run/gunicorn.sock (78812)
+[2021-06-14 11:11:40 +0000] [78812] [INFO] Using worker: sync
+[2021-06-14 11:11:40 +0000] [78817] [INFO] Booting worker with pid: 78817
+[2021-06-14 11:11:40 +0000] [78818] [INFO] Booting worker with pid: 78818
+[2021-06-14 11:11:41 +0000] [78819] [INFO] Booting worker with pid: 78819
+[2021-06-14 11:11:41 +0000] [78812] [DEBUG] 3 workers
+[2021-06-14 11:12:39 +0000] [78812] [INFO] Handling signal: term
+[2021-06-14 11:12:39 +0000] [78817] [INFO] Worker exiting (pid: 78817)
+[2021-06-14 11:12:39 +0000] [78818] [INFO] Worker exiting (pid: 78818)
+[2021-06-14 11:12:39 +0000] [78819] [INFO] Worker exiting (pid: 78819)
+[2021-06-14 11:12:39 +0000] [78812] [INFO] Shutting down: Master
+Starting rumplesandco as simvic
+[2021-06-14 11:13:06 +0000] [78910] [DEBUG] Current configuration:
+  config: ./gunicorn.conf.py
+  wsgi_app: None
+  bind: ['unix:/home/simvic/rumples/run/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  print_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/simvic/rumplesandco
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: rumplesandco
+  default_proc_name: rumples.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fbb86a58820>
+  on_reload: <function OnReload.on_reload at 0x7fbb86a58940>
+  when_ready: <function WhenReady.when_ready at 0x7fbb86a58a60>
+  pre_fork: <function Prefork.pre_fork at 0x7fbb86a58b80>
+  post_fork: <function Postfork.post_fork at 0x7fbb86a58ca0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fbb86a58dc0>
+  worker_int: <function WorkerInt.worker_int at 0x7fbb86a58ee0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fbb86a70040>
+  pre_exec: <function PreExec.pre_exec at 0x7fbb86a70160>
+  pre_request: <function PreRequest.pre_request at 0x7fbb86a70280>
+  post_request: <function PostRequest.post_request at 0x7fbb86a70310>
+  child_exit: <function ChildExit.child_exit at 0x7fbb86a70430>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fbb86a70550>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fbb86a70670>
+  on_exit: <function OnExit.on_exit at 0x7fbb86a70790>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2021-06-14 11:13:06 +0000] [78910] [INFO] Starting gunicorn 20.1.0
+[2021-06-14 11:13:06 +0000] [78910] [DEBUG] Arbiter booted
+[2021-06-14 11:13:06 +0000] [78910] [INFO] Listening at: unix:/home/simvic/rumples/run/gunicorn.sock (78910)
+[2021-06-14 11:13:06 +0000] [78910] [INFO] Using worker: sync
+[2021-06-14 11:13:06 +0000] [78915] [INFO] Booting worker with pid: 78915
+[2021-06-14 11:13:06 +0000] [78916] [INFO] Booting worker with pid: 78916
+[2021-06-14 11:13:06 +0000] [78917] [INFO] Booting worker with pid: 78917
+[2021-06-14 11:13:06 +0000] [78910] [DEBUG] 3 workers
+[2021-06-14 11:13:25 +0000] [78910] [INFO] Handling signal: term
+[2021-06-14 11:13:25 +0000] [78916] [INFO] Worker exiting (pid: 78916)
+[2021-06-14 11:13:25 +0000] [78915] [INFO] Worker exiting (pid: 78915)
+[2021-06-14 11:13:25 +0000] [78917] [INFO] Worker exiting (pid: 78917)
+[2021-06-14 11:13:25 +0000] [78910] [INFO] Shutting down: Master
+Starting rumplesandco as simvic
+[2021-06-14 11:57:48 +0000] [80180] [DEBUG] Current configuration:
+  config: ./gunicorn.conf.py
+  wsgi_app: None
+  bind: ['unix:/home/simvic/run/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  print_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/simvic/rumplesandco
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: rumplesandco
+  default_proc_name: rumples.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f3dae6bf820>
+  on_reload: <function OnReload.on_reload at 0x7f3dae6bf940>
+  when_ready: <function WhenReady.when_ready at 0x7f3dae6bfa60>
+  pre_fork: <function Prefork.pre_fork at 0x7f3dae6bfb80>
+  post_fork: <function Postfork.post_fork at 0x7f3dae6bfca0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f3dae6bfdc0>
+  worker_int: <function WorkerInt.worker_int at 0x7f3dae6bfee0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f3dae6d7040>
+  pre_exec: <function PreExec.pre_exec at 0x7f3dae6d7160>
+  pre_request: <function PreRequest.pre_request at 0x7f3dae6d7280>
+  post_request: <function PostRequest.post_request at 0x7f3dae6d7310>
+  child_exit: <function ChildExit.child_exit at 0x7f3dae6d7430>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f3dae6d7550>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f3dae6d7670>
+  on_exit: <function OnExit.on_exit at 0x7f3dae6d7790>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2021-06-14 11:57:48 +0000] [80180] [INFO] Starting gunicorn 20.1.0
+[2021-06-14 11:57:48 +0000] [80180] [DEBUG] Arbiter booted
+[2021-06-14 11:57:48 +0000] [80180] [INFO] Listening at: unix:/home/simvic/run/gunicorn.sock (80180)
+[2021-06-14 11:57:48 +0000] [80180] [INFO] Using worker: sync
+[2021-06-14 11:57:48 +0000] [80185] [INFO] Booting worker with pid: 80185
+[2021-06-14 11:57:48 +0000] [80186] [INFO] Booting worker with pid: 80186
+[2021-06-14 11:57:48 +0000] [80187] [INFO] Booting worker with pid: 80187
+[2021-06-14 11:57:48 +0000] [80180] [DEBUG] 3 workers
+[2021-06-14 12:00:02 +0000] [80180] [INFO] Handling signal: term
+[2021-06-14 12:00:02 +0000] [80187] [INFO] Worker exiting (pid: 80187)
+[2021-06-14 12:00:02 +0000] [80185] [INFO] Worker exiting (pid: 80185)
+[2021-06-14 12:00:02 +0000] [80186] [INFO] Worker exiting (pid: 80186)
+[2021-06-14 12:00:03 +0000] [80180] [INFO] Shutting down: Master
+Starting rumplesandco as simvic
+[2021-06-14 12:00:30 +0000] [80289] [DEBUG] Current configuration:
+  config: ./gunicorn.conf.py
+  wsgi_app: None
+  bind: ['unix:/home/simvic/run/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 120
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  print_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/simvic/rumplesandco
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: rumplesandco
+  default_proc_name: rumples.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fd51d008820>
+  on_reload: <function OnReload.on_reload at 0x7fd51d008940>
+  when_ready: <function WhenReady.when_ready at 0x7fd51d008a60>
+  pre_fork: <function Prefork.pre_fork at 0x7fd51d008b80>
+  post_fork: <function Postfork.post_fork at 0x7fd51d008ca0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fd51d008dc0>
+  worker_int: <function WorkerInt.worker_int at 0x7fd51d008ee0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fd51d020040>
+  pre_exec: <function PreExec.pre_exec at 0x7fd51d020160>
+  pre_request: <function PreRequest.pre_request at 0x7fd51d020280>
+  post_request: <function PostRequest.post_request at 0x7fd51d020310>
+  child_exit: <function ChildExit.child_exit at 0x7fd51d020430>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fd51d020550>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fd51d020670>
+  on_exit: <function OnExit.on_exit at 0x7fd51d020790>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2021-06-14 12:00:30 +0000] [80289] [INFO] Starting gunicorn 20.1.0
+[2021-06-14 12:00:30 +0000] [80289] [DEBUG] Arbiter booted
+[2021-06-14 12:00:30 +0000] [80289] [INFO] Listening at: unix:/home/simvic/run/gunicorn.sock (80289)
+[2021-06-14 12:00:30 +0000] [80289] [INFO] Using worker: sync
+[2021-06-14 12:00:30 +0000] [80294] [INFO] Booting worker with pid: 80294
+[2021-06-14 12:00:30 +0000] [80295] [INFO] Booting worker with pid: 80295
+[2021-06-14 12:00:30 +0000] [80296] [INFO] Booting worker with pid: 80296
+[2021-06-14 12:00:30 +0000] [80289] [DEBUG] 3 workers
+[2021-06-14 12:03:52 +0000] [80295] [DEBUG] GET /
+[2021-06-14 12:03:57 +0000] [80296] [DEBUG] GET /favicon.ico
+[2021-06-14 12:07:49 +0000] [80296] [DEBUG] GET /
+[2021-06-14 12:07:55 +0000] [80296] [DEBUG] GET /favicon.ico
+[2021-06-14 12:09:23 +0000] [80295] [DEBUG] GET /
+[2021-06-14 12:17:11 +0000] [80296] [DEBUG] GET /
+[2021-06-14 12:19:47 +0000] [80296] [DEBUG] GET /favicon.ico
+[2021-06-14 13:01:30 +0000] [80294] [DEBUG] GET /
+[2021-06-14 13:03:31 +0000] [80294] [DEBUG] GET /
+[2021-06-14 13:06:48 +0000] [80295] [DEBUG] GET /
+[2021-06-14 13:09:16 +0000] [80296] [DEBUG] GET /
+[2021-06-14 13:14:38 +0000] [80295] [DEBUG] GET /
+[2021-06-14 13:18:23 +0000] [80296] [DEBUG] GET /
+[2021-06-14 13:19:00 +0000] [80294] [DEBUG] GET /favicon.ico
+[2021-06-14 13:20:37 +0000] [80295] [DEBUG] GET /
+[2021-06-14 13:21:03 +0000] [80294] [DEBUG] POST /api/add_whatsapp/
+[2021-06-14 13:21:04 +0000] [80296] [DEBUG] POST /api/add_whatsapp/
+[2021-06-14 13:21:23 +0000] [80295] [DEBUG] GET /
+[2021-06-14 13:24:13 +0000] [80296] [DEBUG] GET /login/
+[2021-06-14 13:24:24 +0000] [80294] [DEBUG] GET /signup/
+[2021-06-14 13:24:50 +0000] [80295] [DEBUG] GET /login/
+[2021-06-14 13:25:04 +0000] [80296] [DEBUG] POST /login/
+[2021-06-14 13:25:29 +0000] [80294] [DEBUG] GET /signup/
+[2021-06-14 13:25:39 +0000] [80294] [DEBUG] GET /
+[2021-06-14 13:25:51 +0000] [80294] [DEBUG] GET /cart/
+[2021-06-14 13:26:14 +0000] [80294] [DEBUG] GET /search/
+[2021-06-14 13:28:17 +0000] [80294] [DEBUG] GET /blog/
+[2021-06-14 13:28:24 +0000] [80296] [DEBUG] GET /about/
+[2021-06-14 13:29:02 +0000] [80296] [DEBUG] GET /
+[2021-06-14 13:32:38 +0000] [80296] [DEBUG] GET /
+[2021-06-14 13:32:54 +0000] [80294] [DEBUG] GET /favicon.ico
+[2021-06-14 13:33:02 +0000] [80295] [DEBUG] GET /
+[2021-06-14 13:33:26 +0000] [80296] [DEBUG] GET /
+[2021-06-14 13:35:34 +0000] [80296] [DEBUG] GET /
+[2021-06-14 13:38:57 +0000] [80295] [DEBUG] GET /
+[2021-06-14 13:47:27 +0000] [80296] [DEBUG] GET /
+[2021-06-14 14:17:33 +0000] [80294] [DEBUG] GET /
+[2021-06-14 14:58:10 +0000] [80294] [DEBUG] GET /images/Nxrs4tAtO/HCw4_2FQ7o69dmQEodXU/_2Fua56jJgWqt8tN1Tx/0M9Tus5G1nAOe_2BJflcrm/2nz3T7AxG_2Fd/YnZ7Cn6A/zq1HlKYZhiFyQLgflmvIbb1/yQL2MK3UaK/00uQsiMnxrcs4C9gN/xpGuwRLuq6tH/7YwEr.avi
+[2021-06-14 15:16:31 +0000] [80294] [DEBUG] POST /boaform/admin/formLogin
+[2021-06-14 16:05:45 +0000] [80294] [DEBUG] GET /
+[2021-06-14 16:09:19 +0000] [80295] [DEBUG] GET /TP/public/index.php
+[2021-06-14 16:09:20 +0000] [80294] [DEBUG] GET /TP/index.php
+[2021-06-14 16:09:21 +0000] [80296] [DEBUG] GET /thinkphp/html/public/index.php
+[2021-06-14 16:09:22 +0000] [80295] [DEBUG] GET /html/public/index.php
+[2021-06-14 16:09:22 +0000] [80295] [DEBUG] GET /public/index.php
+[2021-06-14 16:09:22 +0000] [80294] [DEBUG] GET /TP/html/public/index.php
+[2021-06-14 16:09:23 +0000] [80294] [DEBUG] GET /elrekt.php
+[2021-06-14 16:09:23 +0000] [80294] [DEBUG] GET /index.php
+[2021-06-14 16:09:24 +0000] [80296] [DEBUG] GET /
+[2021-06-14 16:26:18 +0000] [80295] [DEBUG] GET /
+[2021-06-14 16:26:21 +0000] [80294] [DEBUG] GET /favicon.ico
+[2021-06-14 16:26:22 +0000] [80294] [DEBUG] GET /
+[2021-06-14 16:26:24 +0000] [80295] [DEBUG] GET /favicon.ico
+[2021-06-14 16:26:29 +0000] [80295] [DEBUG] GET /
+[2021-06-14 16:41:18 +0000] [80296] [DEBUG] GET /
+[2021-06-14 16:42:05 +0000] [80294] [DEBUG] GET /
+[2021-06-14 16:42:10 +0000] [80295] [DEBUG] GET /favicon.ico
+[2021-06-14 16:42:17 +0000] [80295] [DEBUG] GET /
+[2021-06-14 16:42:35 +0000] [80296] [DEBUG] GET /
+[2021-06-14 16:42:57 +0000] [80295] [DEBUG] GET /
+[2021-06-14 16:43:23 +0000] [80295] [DEBUG] GET /
+[2021-06-14 16:45:17 +0000] [80295] [DEBUG] GET /
+[2021-06-14 16:45:21 +0000] [80296] [DEBUG] GET /favicon.ico
+[2021-06-14 16:47:19 +0000] [80296] [DEBUG] GET /
+[2021-06-14 16:48:08 +0000] [80295] [DEBUG] GET /
+[2021-06-14 16:52:48 +0000] [80294] [DEBUG] GET /
+[2021-06-14 16:55:03 +0000] [80294] [DEBUG] GET /
+[2021-06-14 16:55:05 +0000] [80296] [DEBUG] GET /favicon.ico
+[2021-06-14 16:57:19 +0000] [80295] [DEBUG] POST /boaform/admin/formLogin
