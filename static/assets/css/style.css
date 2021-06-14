@@ -151,6 +151,13 @@ element.style {
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: transparent;}
 
+@media screen and (min-width: 1400px){
+  nav .form-group{
+    padding-top: 9px;
+    padding-left: 170px;
+  }
+}
+
 /* carusel section  */
 .carousel-item.active,
 .carousel-item-next,
@@ -944,6 +951,125 @@ element.style {
     margin-top: 4rem;
     padding-top: 17rem;
 }
+@media screen and (min-width: 1400px) and (max-width: 1507px){
+    .whatsapp{
+      width: 100%;
+      height: 1270px;
+      background-image: url('../img/banner/fashion-1031469_1920.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: 4rem;
+      padding-top: 17rem;
+  }
+  .news-background{
+    width: 50%;
+    height: 300px;
+    opacity: 90%;
+    background-color: #e1992d;
+    padding-top: 72px;
+    margin-top: 0px;
+    margin-left: 23rem !important;
+  }
+  .content form{
+        width: 50%;
+        margin-top: -10px;
+    }
+    .content .btn{
+        margin-left: 336px !important;
+        margin-top: -66px !important;
+    }
+}
+
+@media screen and (min-width: 1508px) and (max-width: 1604px){
+    .whatsapp{
+      width: 100%;
+      height: 1270px;
+      background-image: url('../img/banner/fashion-1031469_1920.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: 4rem;
+      padding-top: 17rem;
+  }
+  .news-background{
+    width: 50%;
+    height: 300px;
+    opacity: 90%;
+    background-color: #e1992d;
+    padding-top: 72px;
+    margin-top: 30px;
+    margin-left: 26rem !important;
+  }
+  .content form{
+        width: 50%;
+        margin-left: 8rem !important;
+        margin-top: -10px;
+    }
+    .content .btn{
+        margin-left: 359px !important;
+        margin-top: -65px !important;
+    }
+}
+
+@media screen and (min-width: 1605px) and (max-width: 1790px){
+    .whatsapp{
+      width: 100%;
+      height: 1270px;
+      background-image: url('../img/banner/fashion-1031469_1920.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: 4rem;
+      padding-top: 17rem;
+  }
+  .news-background{
+    width: 50%;
+    height: 300px;
+    opacity: 90%;
+    background-color: #e1992d;
+    padding-top: 72px;
+    margin-top: 30px;
+    margin-left: 26rem !important;
+  }
+  .content form{
+        width: 50%;
+        margin-left: 8rem !important;
+        margin-top: -10px;
+    }
+    .content .btn{
+        margin-left: 359px !important;
+        margin-top: -65px !important;
+    }
+}
+
+@media screen and (min-width: 1791px) and (max-width: 2500px){
+    .whatsapp{
+      width: 100%;
+      height: 1270px;
+      background-image: url('../img/banner/fashion-1031469_1920.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: 4rem;
+      padding-top: 17rem;
+  }
+  .news-background{
+    width: 50%;
+    height: 300px;
+    opacity: 90%;
+    background-color: #e1992d;
+    padding-top: 72px;
+    margin-top: 200px;
+    margin-left: 32rem !important;
+  }
+  .content form{
+        width: 50%;
+        margin-left:15rem !important;
+        margin-top: -10px;
+    }
+    .content .btn{
+        margin-left: 359px !important;
+        margin-top: -65px !important;
+    }
+}
+
 .news-background{
     width: 50%;
     height: 300px;
@@ -988,7 +1114,7 @@ element.style {
         opacity: 90%;
         background-color: #e1992d;
         padding-top: 7.2px;
-        margin-left: 2rem;
+        margin-left: 2.5rem;
     }
     .content h4{
         font-weight: 600;
@@ -1014,7 +1140,7 @@ element.style {
         border-radius: 0px;
     }
     .content .btn{
-        margin-left: 7.2rem;
+        margin-left: 8.5rem;
         margin-top: -51px;
     }
     .content form input{
@@ -1044,7 +1170,7 @@ element.style {
         opacity: 90%;
         background-color: #e1992d;
         padding-top: 7.2px;
-        margin-left: 2.5rem;
+        margin-left: 2.8rem;
     }
     .content h4{
         font-weight: 600;
@@ -1070,7 +1196,7 @@ element.style {
         border-radius: 0px;
     }
     .content .btn{
-        margin-left: 7.2rem;
+        margin-left: 9.2rem;
         margin-top: -51px;
     }
     .content form input{
@@ -1100,7 +1226,8 @@ element.style {
         opacity: 90%;
         background-color: #e1992d;
         padding-top: 7.2px;
-        margin-left: 3rem;
+        margin-top: 40px;
+        margin-left: 3.7rem;
     }
     .content h4{
         font-weight: 600;
@@ -1111,7 +1238,7 @@ element.style {
     }
     .content form{
         width: 50%;
-        margin-left: 5rem;
+        margin-left: 3.3rem;
         margin-top: -10px;
     }
     .content .btn-secondary{
@@ -1126,8 +1253,8 @@ element.style {
         border-radius: 0px;
     }
     .content .btn{
-        margin-left: 7.2rem;
-        margin-top: -51px;
+        margin-left: 11.8rem;
+        margin-top: -52px;
     }
     .content form input{
         height: 25px;
@@ -1146,7 +1273,7 @@ element.style {
         margin-top: -14px;
     }
 }
-@media screen and (min-width: 501px) and (max-width: 700px){
+@media screen and (min-width: 501px) and (max-width: 573px){
     .whatsapp{
         padding-top: 3rem;
     }
@@ -1156,6 +1283,7 @@ element.style {
         opacity: 90%;
         background-color: #e1992d;
         padding-top: 7.2px;
+        margin-top: 40px;
         margin-left: 3.5rem;
     }
     .content h4{
@@ -1167,7 +1295,7 @@ element.style {
     }
     .content form{
         width: 50%;
-        margin-left: 5rem;
+        margin-left: 4rem;
         margin-top: -10px;
     }
     .content .btn-secondary{
@@ -1182,7 +1310,7 @@ element.style {
         border-radius: 0px;
     }
     .content .btn{
-        margin-left: 12.8rem;
+        margin-left: 11.8rem;
         margin-top: -51px;
     }
     .content form input{
@@ -1202,7 +1330,123 @@ element.style {
         margin-top: -14px;
     }
 }
-@media screen and (min-width: 701px) and (max-width: 800px){
+@media screen and (min-width: 574px) and (max-width: 687px){
+    .whatsapp{
+        padding-top: 3rem;
+    }
+    .news-background{
+        width: 80%;
+        height: 140px;
+        opacity: 90%;
+        background-color: #e1992d;
+        padding-top: 7.2px;
+        margin-top: 40px;
+        margin-left: 4.5rem;
+    }
+    .content h4{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .content p{
+        font-size: 9px;
+    }
+    .content form{
+        width: 50%;
+        margin-left: 6rem;
+        margin-top: -10px;
+    }
+    .content .btn-secondary{
+        background-color: green;
+    }
+    .content .btn-secondary:hover{
+        background-color: green;
+        border-color: green;
+    }
+    .content .btn,
+    .content input{
+        border-radius: 0px;
+    }
+    .content .btn{
+        margin-left: 15.9rem;
+        margin-top: -51px;
+    }
+    .content form input{
+        height: 25px;
+        font-size: 9px;
+    }
+    .content form input::value{
+        font-size: 9px;
+    }
+    .content form input::placeholder{
+        font-size: 10px;
+    }
+    .content form .btn{
+        font-size: 9px;
+    }
+    .respect{
+        margin-top: -14px;
+    }
+}
+
+@media screen and (min-width: 688px) and (max-width: 700px){
+    .whatsapp{
+        padding-top: 3rem;
+    }
+    .news-background{
+        width: 80%;
+        height: 140px;
+        opacity: 90%;
+        background-color: #e1992d;
+        padding-top: 7.2px;
+        margin-top: 40px;
+        margin-left: 4.5rem;
+    }
+    .content h4{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .content p{
+        font-size: 9px;
+    }
+    .content form{
+        width: 50%;
+        margin-left: 6rem;
+        margin-top: -10px;
+    }
+    .content .btn-secondary{
+        background-color: green;
+    }
+    .content .btn-secondary:hover{
+        background-color: green;
+        border-color: green;
+    }
+    .content .btn,
+    .content input{
+        border-radius: 0px;
+    }
+    .content .btn{
+        margin-left: 15.9rem;
+        margin-top: -51px;
+    }
+    .content form input{
+        height: 25px;
+        font-size: 9px;
+    }
+    .content form input::value{
+        font-size: 9px;
+    }
+    .content form input::placeholder{
+        font-size: 10px;
+    }
+    .content form .btn{
+        font-size: 9px;
+    }
+    .respect{
+        margin-top: -14px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 767px){
        .whatsapp{
         padding-top: 3rem;
     }
@@ -1216,6 +1460,53 @@ element.style {
     }
     .content h4{
         font-weight: 600;
+        font-size: 16px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .content form{
+        width: 50%;
+        margin-left: 6rem;
+        margin-top: -10px;
+    }
+    .content .btn-secondary{
+        background-color: green;
+    }
+    .content .btn-secondary:hover{
+        background-color: green;
+        border-color: green;
+    }
+    .content .btn,
+    .content input{
+        border-radius: 0px;
+    }
+    .content .btn{
+        margin-left: 15.8rem;
+        margin-top: -64px;
+    }
+    .content form input::placeholder{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 800px){
+       .whatsapp{
+        padding-top: 3rem;
+    }
+    .news-background{
+        width: 80%;
+        height: 240px;
+        opacity: 90%;
+        background-color: #e1992d;
+        padding-top: 50px;
+        margin-left: 4.6rem;
+    }
+    .content h4{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .content p{
+        font-size: 15px;
     }
     .content form{
         width: 50%;
@@ -1271,13 +1562,174 @@ element.style {
         border-radius: 0px;
     }
     .content .btn{
-        margin-left: 21rem;
-        margin-top: -64px;
+        margin-left: 17rem;
+        margin-top: -65px;
     }
     .content form input::placeholder{
         font-size: 10px;
     }
 }   
+
+@media screen and (min-width: 1001px) and (max-width: 1100px){
+       .whatsapp{
+        padding-top: 3rem;
+    }
+    .news-background{
+        width: 80%;
+        height: 300px;
+        opacity: 90%;
+        background-color: #e1992d;
+        padding-top: 50px;
+        margin-left: 7rem;
+        margin-top: 150px;
+    }
+    .content h4{
+        font-weight: 600;
+    }
+    .content form{
+        width: 50%;
+        margin-left: 194px;
+    }
+    .content .btn-secondary{
+        background-color: green;
+    }
+    .content .btn-secondary:hover{
+        background-color: green;
+        border-color: green;
+    }
+    .content .btn,
+    .content input{
+        border-radius: 0px;
+    }
+    .content .btn{
+        margin-left: 20rem;
+        margin-top: -65px;
+    }
+    .content form input::placeholder{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1140px){
+       .whatsapp{
+        padding-top: 3rem;
+    }
+    .news-background{
+        width: 80%;
+        height: 300px;
+        opacity: 90%;
+        background-color: #e1992d;
+        padding-top: 50px;
+        margin-left: 7rem;
+        margin-top: 150px;
+    }
+    .content h4{
+        font-weight: 600;
+    }
+    .content form{
+        width: 50%;
+        margin-left: 194px;
+    }
+    .content .btn-secondary{
+        background-color: green;
+    }
+    .content .btn-secondary:hover{
+        background-color: green;
+        border-color: green;
+    }
+    .content .btn,
+    .content input{
+        border-radius: 0px;
+    }
+    .content .btn{
+        margin-left: 25rem;
+        margin-top: -65px;
+    }
+    .content form input::placeholder{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1141px) and (max-width: 1310px){
+       .whatsapp{
+        padding-top: 3rem;
+    }
+    .news-background{
+        width: 80%;
+        height: 300px;
+        opacity: 90%;
+        background-color: #e1992d;
+        padding-top: 50px;
+        margin-left: 8rem;
+        margin-top: 150px;
+    }
+    .content h4{
+        font-weight: 600;
+    }
+    .content form{
+        width: 50%;
+        margin-left: 254px;
+    }
+    .content .btn-secondary{
+        background-color: green;
+    }
+    .content .btn-secondary:hover{
+        background-color: green;
+        border-color: green;
+    }
+    .content .btn,
+    .content input{
+        border-radius: 0px;
+    }
+    .content .btn{
+        margin-left: 25rem;
+        margin-top: -65px;
+    }
+    .content form input::placeholder{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1311px) and (max-width: 1399px){
+       .whatsapp{
+        padding-top: 3rem;
+    }
+    .news-background{
+        width: 80%;
+        height: 300px;
+        opacity: 90%;
+        background-color: #e1992d;
+        padding-top: 50px;
+        margin-left: 9rem;
+        margin-top: 150px;
+    }
+    .content h4{
+        font-weight: 600;
+    }
+    .content form{
+        width: 50%;
+        margin-left: 254px;
+    }
+    .content .btn-secondary{
+        background-color: green;
+    }
+    .content .btn-secondary:hover{
+        background-color: green;
+        border-color: green;
+    }
+    .content .btn,
+    .content input{
+        border-radius: 0px;
+    }
+    .content .btn{
+        margin-left: 29rem;
+        margin-top: -65px;
+    }
+    .content form input::placeholder{
+        font-size: 10px;
+    }
+}
+
 .instagram{
     margin-top: 4rem;
 }
@@ -2059,4 +2511,7 @@ margin-top:8px;
 }
 table thead tr .title-img{
   width: 40%;
+}
+.newsletter .letter{
+  border-radius: 0px;
 }

@@ -92,12 +92,12 @@ WSGI_APPLICATION = 'rumples.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'rumples',
-        'USER': 'root',
-        'PASSWORD': 'DaVid226@simvic.org',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'rumplesandco',
+        'USER': 'rumples',
+        'PASSWORD': '@simvic',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '' 
     }
 }
 
